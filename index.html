@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🚀 Assignment: Mastering JavaScript Fundamentals</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>JavaScript Fundamentals Playground 🎉</h1>
+
+      <!-- 🎯 Part 1: Mastering JavaScript Basics -->
+      <section>
+        <h2>🎯 Part 1: Mastering JavaScript Basics</h2>
+        <label for="username">Enter Your Name</label>
+        <input type="text" id="username" placeholder="Enter your name" />
+        <button id="greetBtn">Greet Me</button>
+        <p id="greeting"></p>
+      </section>
+
+      <!-- ❤️ Part 2: JavaScript Functions — The Heart of Reusability -->
+
+      <section>
+        <h2>❤️ Part 2: JavaScript Functions — The Heart of Reusability</h2>
+        <div class="boxmodel">
+          <div>
+            <h3>Calculate the Sum</h3>
+            <button onclick="calculateTotal(10, 5)">
+              Calculate Total (10 + 5)
+            </button>
+            <p id="totalResult"></p>
+          </div>
+          <div>
+            <h3>Toggle content</h3>
+            <button onclick="toggleContent('hiddenContent')">
+              Toggle Content
+            </button>
+            <div id="hiddenContent" style="display: none">
+              This is a hidden content
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 🔁 Part 3: JavaScript Loops — Embrace the Power of Repetition! -->
+      <section>
+        <h2>🔁 Part 3: JavaScript Loops - Show programming Language List</h2>
+        <div class="boxmodel">
+          <div>
+            <h3>Using for Each</h3>
+            <ul id="programming"></ul>
+          </div>
+          <div>
+            <h3>Using for loop</h3>
+            <ul id="programminglangs"></ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- 🌐 Part 4: Mastering the DOM with JavaScript -->
+      <section>
+        <h2>🌐 Part 4: Mastering the DOM with JavaScript</h2>
+
+        <div class="boxmodel">
+          <div>
+            <!-- chaging the text -->
+            <h2 id="changingText">Orginal Text</h2>
+            <button id="change">Change Text</button>
+          </div>
+          <div class="color">
+            <!-- changing the style -->
+            <h3>changing the style</h3>
+            <p id="color">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste vero
+              ipsam rerum necessitatibus nulla praesentium hic dolores nesciunt
+              minus doloribus. Ratione necessitatibus vel dolor tempore rerum
+              possimus sapiente ut consectetur.
+            </p>
+            <button id="btn">Change Background Color</button>
+          </div>
+          <!-- adding an element -->
+          <div>
+            <h3>adding an element</h3>
+            <button id="add">Add Item</button>
+            <ul id="list"></ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
